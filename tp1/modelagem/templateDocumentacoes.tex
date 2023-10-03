@@ -1,0 +1,70 @@
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{xfrac}
+\usepackage{multicol}
+\usepackage{amsthm}
+\usepackage{marginnote}
+\usepackage{url}
+\usepackage{cancel}
+\usepackage{subfigure}
+\usepackage{ulem}
+\usepackage{multicol}
+\usepackage{amssymb}
+\usepackage{adjustbox}
+\usepackage{amsmath}
+\usepackage{soul}
+\usepackage[left=3cm,top=3cm,right=2cm,bottom=2cm]{geometry}
+\usepackage[round,sort]{natbib}
+\usepackage{xcolor}
+% Definindo novas cores
+\definecolor{verde}{rgb}{0.25,0.5,0.35}
+\definecolor{jpurple}{rgb}{0.5,0,0.35}
+\usepackage{listings}
+\lstdefinelanguage{pseudocode}{
+	keywordstyle=\bfseries\color{blue},
+	keywords={function, if,then,else,while,do,end,for, to, each,in,return, true, false, talque, dobra\_strings, dobra\_strings, forca\_bruta, KNP, BMH, libera, read\_inteiro, read\_string},
+	basicstyle=\small\ttfamily,
+	commentstyle=\color{gray},
+	mathescape=true,
+	morecomment=[l]{//},
+	morecomment=[s]{/*}{*/}
+}
+\newtheorem{definicao}{Definição}
+%\lstset{
+%	language=Java,
+%	basicstyle=\ttfamily\small,
+%	keywordstyle=\color{jpurple}\bfseries,
+%	stringstyle=\color{red},
+%	commentstyle=\color{verde},
+%	morecomment=[s][\color{blue}]{/**}{*/},
+%	extendedchars=true,
+%	showspaces=false,
+%	showstringspaces=false,
+%	numbers=left,
+%	numberstyle=\tiny,
+%	backgroundcolor=\color{cyan!10},
+%	breakautoindent=true,
+%	captionpos=b,
+%	xleftmargin=0pt,
+%	tabsize=4
+%}
+
+\begin{document}
+	
+	
+%cabecalho
+\input{cabecalho.tex}
+\input{modelagem.tex}
+
+\newpage
+
+
+\bibliographystyle{apalike}
+%\bibliographystyle{authordate1}
+%\bibliography{referencia.bib}
+
+\end{document}
